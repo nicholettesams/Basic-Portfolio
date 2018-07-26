@@ -1,0 +1,128 @@
+body{
+    background: url(../images/bright_squares.png);
+    background-size: cover;
+}
+
+.mainheader{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 100%;
+}
+
+.subheader{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.yourname{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: white;
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 8px;
+}
+
+.navbar{
+    text-align: right;
+    padding: 8px;
+}
+
+.navbar a{
+    text-align: right;
+    text-decoration: none; /*Remove underline */
+}
+
+h1{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    color:#777777;
+}
+
+p, label, nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: #777777;
+}
+
+.maincontent{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+* {box-sizing: border-box;}
+
+.phContainer{
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.phImage{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: #4aaaa5;
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+
+}
+
+.prefooter{
+    background-color: #4aaaa5; 
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+
+}
+
+.footer{
+    background-color: #666666; 
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
