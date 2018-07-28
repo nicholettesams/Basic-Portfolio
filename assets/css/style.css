@@ -49,6 +49,10 @@ body{
     color:  #777777;
 }
 
+.active{
+    font-weight: bold;
+}
+
 h1{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
