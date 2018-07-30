@@ -141,7 +141,8 @@ input[type=text], textarea {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 10px;
+    height: 60px;
+    z-index: 1;
 
 }
 
@@ -155,4 +156,5 @@ input[type=text], textarea {
     text-align: center;
     height: 50px;
     padding: 10px;
+    z-index: 2;
 }
