@@ -26,20 +26,26 @@
             <h1>Contact</h1>
             <hr>
             <div class="text">
-                <form action="mailto:nicholettesams@msn.com" method="post" enctype="text/plain">
+                <!--
+                    Everyting I've read says that sending an email straight from HTML doesn't work.
+                    The most common solutions I've seen involve php and JQuery.  I'm guessing that
+                    this doesn't have to be functional right now and we will get to thoese concepts 
+                    later in the class.
+                -->
+                <form action="mailto:nicholettesams@msn.com?subject=Contact" method="post" enctype="text/plain">
                     <label for="name">Name</label>
                     <br>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                     <br><br>
 
                     <label for="email">Email</label>
                     <br>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" name="email" required>
                     <br><br>
 
                     <label for="message">Message</label>
                     <br>
-                    <textarea id="message" name="message" class="message"></textarea>
+                    <textarea id="message" name="message" class="message" maxlenth="6000" required></textarea>
                     <br><br>
 
                     <input type="submit" value="Submit" class="submit">
